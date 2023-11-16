@@ -51,14 +51,14 @@ const Contact = props => {
                         <i className='bx bx-phone contact__icon'></i>
                         <div>
                             <h3 className="contact__title">Call Me</h3>
-                            <span className="contact__subtitle">403-973-2577</span>
+                            <span className="contact__subtitle">408-893-0834</span>
                         </div>
                     </div>
                     <div className="contact__information">
                         <i className='bx bx-envelope contact__icon' ></i>
                         <div>
                             <h3 className="contact__title">E-mail</h3>
-                            <span className="contact__subtitle">duythai275@gmail.com</span>
+                            <span className="contact__subtitle">quangnguyen1705@gmail.com</span>
                         </div>
                     </div>
                 </div>

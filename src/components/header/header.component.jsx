@@ -10,7 +10,7 @@ const Header = props => {
         <header className="l-header">
             <nav className="nav bd-grid">
                 <div>
-                    <a href="#" className="nav__logo">Thai Nguyen</a>
+                    <a href="#" className="nav__logo">Dang-Quang Nguyen</a>
                 </div>
                 <div className={showMenu} id="nav-menu">
                     <ul className="nav__list">
