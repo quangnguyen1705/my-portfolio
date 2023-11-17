@@ -18,7 +18,7 @@ const Skills = props => {
             <div className="skills__container bd-grid">
                 <div className="skills__frontend">
                     <h2 className="skills__subtitle">Front End</h2>
-                    <p className="skills__text">I have been using JavaScript and its libraries, frameworks <strong>jQuery, React, Redux, Node</strong> for 4 years.</p>
+                    <p className="skills__text">I have been using JavaScript and its libraries, frameworks <strong>jQuery, React, Node</strong> for 4 years.</p>
                     <div className="skills__data">
                         <div className="skills__names">
                             <i className="bx bxl-jquery skills__icon"></i>
@@ -38,16 +38,6 @@ const Skills = props => {
                             <span className="skills__percentage">85%</span>
                         </div>
                         <div className="skills__bar skills__react"></div>
-                    </div>
-                    <div className="skills__data">
-                        <div className="skills__names">
-                            <i className="bx bxl-redux skills__icon"></i>
-                            <span className="skills__name">REDUX</span>
-                        </div>
-                        <div>
-                            <span className="skills__percentage">75%</span>
-                        </div>
-                        <div className="skills__bar skills__redux"></div>
                     </div>
                     <div className="skills__data">
                         <div className="skills__names">
@@ -82,6 +72,30 @@ const Skills = props => {
                             <span className="skills__percentage">75%</span>
                         </div>
                         <div className="skills__bar skills__sql"></div>
+                    </div>
+                </div>
+                <div className="skills__framewrok">
+                    <h2 className="skills__subtitle">Frameworks</h2>
+                    <p className="skills__text">Proficient using <strong>GitHub</strong> for my collaborating with the teams. And get used to other DevOpt tools.</p>
+                    <div className="skills__data">
+                        <div className="skills__names">
+                            <i className="bx bxl-github skills__icon"></i>
+                            <span className="skills__name">GITHUB</span>
+                        </div>
+                        <div>
+                            <span className="skills__percentage">75%</span>
+                        </div>
+                        <div className="skills__bar skills__github"></div>
+                    </div>
+                    <div className="skills__data">
+                        <div className="skills__names">
+                            <i className="bx bxl-amazon skills__icon"></i>
+                            <span className="skills__name">AWS</span>
+                        </div>
+                        <div>
+                            <span className="skills__percentage">20%</span>
+                        </div>
+                        <div className="skills__bar skills__aws"></div>
                     </div>
                 </div>
                 <div className="skills__others">
