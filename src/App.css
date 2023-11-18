@@ -45,6 +45,7 @@
     --mb-4: 2rem;
     --mb-5: 2.5rem;
     --mb-6: 3rem;
+    --mb-7: 4.5rem;
 }
 
 
@@ -115,12 +116,13 @@ img {
     position: absolute;
     content: "";
     width: 64px;
-    height: 0.18rem;
+    height: 5px;
     left: 0;
     right: 0;
     margin: auto;
-    top: 2rem;
+    top: cal(100% + 1.5rem);
     background-color: var(--first-color);
+    border-radius: 5px;
 }
 
 .section {
@@ -169,7 +171,7 @@ img {
         margin-bottom: var(--mb-6);
     }
     .section-title::after {
-        width: 80px;
+        width: 3rem;
         top: 3rem;
     }
 }

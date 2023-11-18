@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import './header.styles.css';
+import picture from "../../assets/img/profile_pic.png";
 
 const Header = props => {
     const [ showMenu, setShowMenu ] = useState("nav__menu");
@@ -9,8 +10,10 @@ const Header = props => {
     return (
         <header className="l-header">
             <nav className="nav bd-grid">
-                <div>
+                <div className='nav__container'>
+                    <img className="nav__img" src={picture} alt="profile" />
                     <a href="#" className="nav__logo">Dang-Quang Nguyen</a>
+                    
                 </div>
                 <div className={showMenu} id="nav-menu">
                     <ul className="nav__list">
