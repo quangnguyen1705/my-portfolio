@@ -62,7 +62,7 @@ const Skills = props => {
                 </div>
                 <div className="skills__backend">
                     <h2 className="skills__subtitle">Back End</h2>
-                    <p className="skills__text">I developed the projects during my studying by using <strong>Java, C++ and Python.</strong></p>
+                    <p className="skills__text">I developed the projects during my studying by using <strong>Java, C++, Python  and SQL.</strong></p>
                     <div className="skills__data">
                         <div className="skills__names">
                             <i className='bx bxl-java skills__icon'></i>
@@ -93,10 +93,20 @@ const Skills = props => {
                         </div>
                         <div className="skills__bar skills__python"></div>
                     </div>
+                    <div className="skills__data">
+                        <div className="skills__names">
+                            <i className='bx bx-data skills__icon'></i>
+                            <span className="skills__name">SQL</span>
+                        </div>
+                        <div>
+                            <span className="skills__percentage">75%</span>
+                        </div>
+                        <div className="skills__bar skills__sql"></div>
+                    </div>
                 </div>
                 <div className="skills__framewrok">
                     <h2 className="skills__subtitle">Frameworks</h2>
-                    <p className="skills__text">Proficient using <strong>GitHub</strong> for my collaborating with the teams. And get used to other DevOpt tools.</p>
+                    <p className="skills__text">Through my coursework and professional experience, I have become proficient at building and developing software using popular application frameworks Spring and Laravel.</p>
                     <div className="skills__data">
                         <div className="skills__names">
                             <i className='bx bxl-spring-boot skills__icon'></i>
@@ -141,16 +151,7 @@ const Skills = props => {
                         </div>
                         <div className="skills__bar skills__aws"></div>
                     </div>
-                    <div className="skills__data">
-                        <div className="skills__names">
-                            <i className='bx bx-data skills__icon'></i>
-                            <span className="skills__name">SQL</span>
-                        </div>
-                        <div>
-                            <span className="skills__percentage">75%</span>
-                        </div>
-                        <div className="skills__bar skills__sql"></div>
-                    </div>
+                   
                 </div>
             </div>
         </section>
