@@ -18,8 +18,8 @@ const Home = props => {
                 <Hero />
                 <About />
                 <Skills />
-                {/* <Projects /> */}
-               {<Contact />}
+                <Projects />
+               <Contact />
             </main>
             <Footer />
         </div>
